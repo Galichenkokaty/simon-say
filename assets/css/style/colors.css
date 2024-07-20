@@ -1,0 +1,19 @@
+:root {
+    /* main */
+    --color__dark: #495E4C;
+    --color__white: #ffffff;
+    
+    /* fill */
+    --color__fill-1: #78C081;
+    --color__fill-2: #D9FADD;
+    --color__fill-3: #BAFFC3;
+    --color__fill-1-h: #54E165;
+    --color__fill-1-a: #5CCD6A;
+
+
+    /* text */
+    --color__text-1: #78C081;
+    --color__text-2: #7CA381;
+    --color__text-3: #848484;
+
+}

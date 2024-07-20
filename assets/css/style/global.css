@@ -1,0 +1,186 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'ProximaNova' ,Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+    background-color: white;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    font-size: calc((100vw - 320px)/(1920 - 320) * (16 - 14) + 14px);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.thumb{
+    position: relative;
+    display: block;
+}
+
+.thumb span, .thumb picture{
+    display: block;
+}
+
+.thumb svg, .thumb img{
+    position: absolute;
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.list-style {
+    list-style: inherit;
+}
+
+body::-webkit-scrollbar {
+    width: .375rem !important;
+    border-radius: .375rem !important;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255) !important;
+    border-radius: .375rem !important;
+}
+
+.overflow-hidden {
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+}
+
+ul,
+ol {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+h2,
+h3,
+h4,
+h1,
+p {
+    margin: 0px;
+}
+
+.main-page {
+    overflow: hidden;
+    position: relative;
+}
+
+.js-no-scroll {
+    overflow: hidden;
+}
+
+.center-wrap {
+    position: relative;
+    margin: 3rem auto;
+    display: block;
+    width: 100%;
+}
+
+.--title{
+    font-size: 2.8125rem;
+    line-height: 3.75rem;
+    color: var(--color__dark);
+    font-family: 'Ruberoid' ,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1680px) {
+    /* html,
+    body {
+        font-size: calc((100vw - 320px)/(1920 - 320) * (16 - 14) + 13px);
+    } */
+}
+
+@media screen and (max-width: 1440px) {
+    /* html,
+    body {
+        font-size: calc((100vw - 320px)/(1920 - 320) * (16 - 14) + 12px);
+    } */
+}
+
+@media screen and (max-width: 1399px) {
+    html,
+    body {
+        font-size: calc((100vw - 320px)/(1920 - 320) * (16 - 14) + 13px);
+    }
+}
+
+@media screen and (max-width: 1359px) {}
+
+@media screen and (max-width: 1199px) {
+    html,
+    body {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .main {
+        overflow-x: hidden;
+        overflow: hidden;
+        position: relative;
+    }
+    .center-wrap {
+        max-width: 90%;
+        padding: 0 1rem;
+    }
+    .center-wrap .center-wrap {
+        padding: 0;
+    }
+    .main .main-content {
+        padding-bottom: 3.5rem !important;
+    }
+    /* body::-webkit-scrollbar {
+		width: 0 !important;
+		border-radius: unset !important;
+	}
+	
+	body::-webkit-scrollbar-thumb {
+		background: unset !important;
+		border-radius: unset !important;
+	} */
+    body::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 640px) {
+    .center-wrap {
+        padding: 0 1rem;
+        max-width: 100%;
+    }
+
+
+}

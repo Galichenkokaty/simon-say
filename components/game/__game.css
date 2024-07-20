@@ -1,0 +1,48 @@
+.game{
+    gap: 1rem;
+}
+
+.game__section{
+    width: 100%;
+    gap: 1rem;
+}
+
+.game__button{
+    border: 0.125rem solid rgba(0, 0, 0, 0.37);
+    height: 14rem;
+    transition: all .4s ease-in-out;
+}
+
+.game__button.active{
+    filter: contrast(1.8) brightness(1.5);
+    cursor: pointer;
+}
+
+.game__button:active{
+    filter: contrast(1.8) brightness(1.5);
+    cursor: pointer;
+}
+
+@media (hover: hover) {
+    .game__button:hover{
+        filter: contrast(1.8) brightness(1.5);
+        cursor: pointer;
+    }
+}
+
+.game__button:nth-child(1){
+    border-top-left-radius: 100%;
+    background-color: rgb(191, 191, 42);
+}
+.game__button:nth-child(2){
+    border-top-right-radius: 100%;
+    background-color: rgb(51, 170, 51);
+}
+.game__button:nth-child(3){
+    border-bottom-left-radius: 100%;
+    background-color: rgb(176, 45, 45);
+}
+.game__button:nth-child(4){
+    border-bottom-right-radius: 100%;
+    background-color: rgb(41, 41, 195);
+}

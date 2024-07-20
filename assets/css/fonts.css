@@ -1,0 +1,53 @@
+/* SF Pro Display */
+
+@font-face {
+    font-family: 'Ruberoid';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/Ruberoid-Light.woff2') format('woff2'),
+    url('assets/fonts/Ruberoid-Light.ttf') format('ttf'),
+    url('assets/fonts/Ruberoid-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ruberoid';
+    font-style: normal;
+    font-weight: 500;
+    src: url('assets/fonts/Ruberoid-Medium.woff2') format('woff2'),
+    url('assets/fonts/Ruberoid-Medium.ttf') format('ttf'),
+    url('assets/fonts/Ruberoid-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ruberoid';
+    font-style: normal;
+    font-weight: 600;
+    src: url('assets/fonts/Ruberoid-Semibold.woff2') format('woff2'),
+    url('assets/fonts/Ruberoid-Semibold.ttf') format('ttf'),
+    url('assets/fonts/Ruberoid-Semibold.woff') format('woff');
+}
+
+/* SF UI Text */
+
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 600;
+    src: url('assets/fonts/ProximaNova-Semibold.woff2') format('woff2'),
+    url('assets/fonts/ProximaNova-Semibold.ttf') format('ttf'),
+    url('assets/fonts/ProximaNova-Semibold.woff') format('woff');
+}
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 500;
+    src: url('assets/fonts/ProximaNova-Regular.woff2') format('woff2'),
+    url('assets/fonts/ProximaNova-Regular.ttf') format('ttf'),
+    url('assets/fonts/ProximaNova-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'ProximaNova';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/ProximaNova-Light.woff2') format('woff2'),
+    url('assets/fonts/ProximaNova-Light.ttf') format('ttf'),
+    url('assets/fonts/ProximaNova-Light.woff') format('woff');
+}
